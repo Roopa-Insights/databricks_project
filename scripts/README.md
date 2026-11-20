@@ -1,3 +1,9 @@
 # Scripts
 
-This folder contains the Databricks notebooks used to implement the Lakehouse architecture, including data loading, transformation and analytics across Bronze, Silver and Gold layers.
+This folder contains all notebooks used in the Databricks Lakehouse project.
+
+The project follows the Medallion Architecture:
+
+- Bronze: Raw data ingestion.
+- Silver: Data cleaning and transformation.
+- Gold: Business-level transformations and dimensional modelling.
