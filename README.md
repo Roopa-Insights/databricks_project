@@ -97,14 +97,14 @@ The project is organized into two main folders:
 ```text
 databricks_project/
 │
-├── datasets/                 # Source datasets
-│   ├── source_crm/          # Customer-related data
-│   └── source_erp/          # Business and operational data
+├── datasets/                 Source datasets
+│   ├── source_crm/           Customer-related data
+│   └── source_erp/           Business and operational data
 │
-└── scripts/                  # Databricks processing notebooks
-    ├── bronze/              # Raw data ingestion
-    ├── silver/              # Data cleaning and transformation
-    └── gold/                # Business-ready data
+└── scripts/                  Databricks processing notebooks
+    ├── bronze/               Raw data ingestion
+    ├── silver/               Data cleaning and transformation
+    └── gold/                 Business-ready data
 ```
 
 ## What I Learned
