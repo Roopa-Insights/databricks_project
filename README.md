@@ -93,13 +93,12 @@ To avoid running the notebooks manually every time, I created a Databricks Job a
 databricks_project/
 │
 ├── datasets/
-│      
+│   ├── source_crm/
+│   └── source_erp/
+│
 └── scripts/
-    │
     ├── bronze/
-    │
     ├── silver/
-    │
     └── gold/
 ```
 
