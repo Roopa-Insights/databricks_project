@@ -89,17 +89,22 @@ To avoid running the notebooks manually every time, I created a Databricks Job a
 
 ## Project Structure
 
+The project is organized into two main folders:
+
+- **datasets:** Contains the original source data from CRM and ERP systems.
+- **scripts:** Contains the Databricks notebooks used to process data through the Bronze, Silver, and Gold layers.
+
 ```text
 databricks_project/
 │
-├── datasets/
-│   ├── source_crm/
-│   └── source_erp/
+├── datasets/                 # Source datasets
+│   ├── source_crm/          # Customer-related data
+│   └── source_erp/          # Business and operational data
 │
-└── scripts/
-    ├── bronze/
-    ├── silver/
-    └── gold/
+└── scripts/                  # Databricks processing notebooks
+    ├── bronze/              # Raw data ingestion
+    ├── silver/              # Data cleaning and transformation
+    └── gold/                # Business-ready data
 ```
 
 ## What I Learned
